@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-30 15:32:27.638894",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "phone_number",
+  "dob",
+  "gender",
+  "column_break_ttff",
+  "education",
+  "field_of_study",
+  "graduation_year",
+  "institution_name",
+  "percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "column_break_ttff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "field_of_study",
+   "fieldtype": "Data",
+   "label": "Field Of Study "
+  },
+  {
+   "fieldname": "graduation_year",
+   "fieldtype": "Data",
+   "label": "Graduation Year"
+  },
+  {
+   "fieldname": "institution_name",
+   "fieldtype": "Data",
+   "label": "Institution Name"
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Data",
+   "label": "Percentage"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-30 16:15:17.556561",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "WebForm",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
