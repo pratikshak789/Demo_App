@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-19 15:58:50.234171",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_qaz9",
+  "amended_from",
+  "section_break_yyxm",
+  "items",
+  "section_break_buyu",
+  "total_amount",
+  "column_break_kmhn",
+  "payable_amount_after_discount"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_qaz9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Invoice",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_yyxm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Invoice Item"
+  },
+  {
+   "fieldname": "section_break_buyu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_kmhn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payable_amount_after_discount",
+   "fieldtype": "Currency",
+   "label": "Payable Amount after Discount",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-19 17:46:09.034415",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

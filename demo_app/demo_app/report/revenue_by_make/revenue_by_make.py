@@ -5,6 +5,9 @@ import frappe
 
 
 def execute(filters=None):
+
+	frappe.errprint(filters)
+	
 	columns = [
 	{
 		"fieldname": "make",
@@ -23,5 +26,15 @@ def execute(filters=None):
 	data = frappe.get_all(
 		"Ride Booking",
 		fields=["SUM(total_amount) AS total_revenue","vehicle.make"],
-		filters={"docstatus":1},group_by="make")
-	return columns, data
+		filters={"docstatus":1},
+		group_by="make")
+	
+	chart = {
+		"data" :{
+			"labels": [x.make for x in data],
+		"datasets": [{"values": [x.total_revenue for x in data]}],
+		
+		},
+		"type":"pie"
+	}
+	return columns, data, "Here is the Report", chart
