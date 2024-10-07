@@ -23,19 +23,21 @@
    "fieldtype": "Int",
    "in_list_view": 1,
    "label": "Quantity",
+   "non_negative": 1,
    "reqd": 1
   },
   {
    "fieldname": "price",
    "fieldtype": "Int",
    "label": "Price",
+   "non_negative": 1,
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-09-19 17:57:40.260583",
+ "modified": "2024-09-19 18:52:13.000980",
  "modified_by": "Administrator",
  "module": "Demo App",
  "name": "Invoice Item",
