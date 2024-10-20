@@ -42,8 +42,7 @@
    "fieldname": "last_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Last Name",
-   "reqd": 1
+   "label": "Last Name"
   },
   {
    "fieldname": "phone_number",
@@ -58,7 +57,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-13 16:05:33.259083",
+ "modified": "2024-10-20 13:16:10.354657",
  "modified_by": "Administrator",
  "module": "Demo App",
  "name": "Driver",

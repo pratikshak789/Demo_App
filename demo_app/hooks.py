@@ -4,6 +4,9 @@ app_publisher = "pratikshak"
 app_description = "it is a demo app"
 app_email = "pratikshakhakse273@gmail.com"
 app_license = "mit"
+
+fixtures = [{"dt": "Vehicle Type", "filters": {"is_standard": 1}}]
+
 # required_apps = []
 
 # Includes in <head>

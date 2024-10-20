@@ -16,6 +16,7 @@
   "summary",
   "column_break_jauv",
   "audit_completed",
+  "type",
   "model",
   "license_plate",
   "is_published",
@@ -117,13 +118,19 @@
    "fieldtype": "Check",
    "label": "Audit Completed?",
    "permlevel": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Link",
+   "label": "Type",
+   "options": "Vehicle Type"
   }
  ],
  "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2024-10-06 20:59:04.472056",
+ "modified": "2024-10-07 20:15:54.531031",
  "modified_by": "Administrator",
  "module": "Demo App",
  "name": "vehicle",

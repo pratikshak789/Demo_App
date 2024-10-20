@@ -49,13 +49,12 @@
    "fieldname": "vehicle",
    "fieldtype": "Link",
    "label": "Vehicle",
-   "link_filters": "[[\"vehicle\",\"year\",\"=\",2000]]",
    "options": "vehicle"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 16:15:38.433072",
+ "modified": "2024-10-07 20:17:01.868905",
  "modified_by": "Administrator",
  "module": "Demo App",
  "name": "Ride Order",
